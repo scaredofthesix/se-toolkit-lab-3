@@ -154,6 +154,9 @@ Install extensions for `VS Code` from [`VS Code Marketplace`](https://marketplac
 
 ### Install recommended extensions
 
+> [!NOTE]
+> Recommended extensions are listed in [`.vscode/extensions.json`](../.vscode/extensions.json).
+
 1. Open `Extensions`:
 
    - Approach 1:
@@ -161,7 +164,7 @@ Install extensions for `VS Code` from [`VS Code Marketplace`](https://marketplac
       1. Go to the [`Activity Bar`](#activity-bar).
       2. Click the icon `Extensions`.
 
-   - Approach 2: 
+   - Approach 2:
      1. Press `Ctrl+Shift+X` (`Cmd+Shift+X` on `macOS`).
 
 2. In the input field, type `@recommended`.
