@@ -22,7 +22,7 @@ git branch conflict-branch-2
 
 Alternatively:
 
-1. Open [`Command Palette`](../../appendix/vs-code.md#command-palette).
+1. [Open the `Command Palette`](../../appendix/vs-code.md#open-the-command-palette).
 2. Run `GitLens: Git Create Branch...`.
 3. Select `main`.
 4. Enter `conflict-branch-1`.
@@ -37,7 +37,7 @@ git switch conflict-branch-1
 
 Alternatively:
 
-1. Open [`Command Palette`](../../appendix/vs-code.md#command-palette).
+1. [Open the `Command Palette`](../../appendix/vs-code.md#open-the-command-palette).
 2. Run `GitLens: Git Switch to...`.
 3. Start typing and select `conflict-branch-1`.
 4. Press `Enter`.
@@ -131,7 +131,7 @@ git branch -d conflict-branch-2
 
 Alternatively:
 
-1. Open [`Command Palette`](../../appendix/vs-code.md#command-palette).
+1. [Open the `Command Palette`](../../appendix/vs-code.md#open-the-command-palette).
 2. Run `GitLens: Git Delete Branch...`.
 3. Select `conflict-branch-1` and `conflict-branch-2` to delete them.
 4. Click `OK`.
