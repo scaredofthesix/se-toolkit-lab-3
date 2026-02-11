@@ -112,9 +112,9 @@ Because you used a custom name, your keys are named `se_toolkit_key` (private) a
 <!-- TODO check this code works -->
 <!-- TODO how to check whether everything is OK? -->
 
-## Connect to the new host
+## Connect to the VM
 
-Now that the configuration is saved, you can connect using the alias you [defined](#add-host-to-the-ssh-config).
+Now that the configuration is saved, you can connect using the alias you [defined before](#add-host-to-the-ssh-config).
 
 1. [Run using the `Terminal`](./appendix/vs-code.md#run-a-command-using-the-terminal):
 
@@ -124,4 +124,5 @@ Now that the configuration is saved, you can connect using the alias you [define
 
 2. If this is your first time connecting, you will see a message:
    `The authenticity of host ... can't be established.`
+
    Type `yes` and press **Enter**.
