@@ -24,4 +24,4 @@ class InteractionModel(SQLModel):
     learner_id: int
     item_id: int
     kind: str
-    created_at: datetime  # bug was here
+    created_at: datetime  # bug
