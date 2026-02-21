@@ -11,12 +11,13 @@ from app.database import get_session
 from app.db.learners import read_learners, create_learner
 from app.models.learner import Learner, LearnerCreate
 
-# router = APIRouter()
+router = APIRouter()
 
 # ===
 # PART A: GET endpoint
 # ===
 
+# UNCOMMENT AND FILL IN
 
 @router.get("/", response_model=list[Learner])
 async def get_learners(
@@ -25,7 +26,7 @@ async def get_learners(
 ) -> list[Learner]:
     """Get all learners."""
     return await read_learners(session, enrolled_after)
-
+#
 # Reference:
 # items GET -> reads from items table, returns list[Item]
 # learners GET -> reads from learners table, returns list[Learner]
